@@ -1,0 +1,515 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+body {
+    background-color: #fff;
+}
+.navbar {
+    background-color: #fff;
+    padding-bottom: 0;
+    padding-top: 0;
+    filter: drop-shadow(0 0 1.2rem #000);
+    z-index: 1000;
+}
+.navbar-brand {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.collapse a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-outline-success {
+    color: #000;
+    border-color: #ada076;
+}
+.carousel {
+    height: calc(100vh - 80px);
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption h5{
+    color: #fff;
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+.carousel-caption p{
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-brand img {
+    width: 40%;
+}
+.text-presentation h4{
+    color: #000;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+.text-presentation p {
+    color: #000;
+    font-size: 20px;
+   text-align: center;
+}
+.all-card {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.actu h4{
+    color: #000;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.garage-back{
+    background: url('../images/garage/luxury-garage-home.jpeg');
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.garage-text p {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+.garage-text h4 {
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+.garage-back2 {
+    background: url('../images/garage/Garage_bling_auto.jpeg');
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.garage-text2 h4 {
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+.garage-text2 p {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+.garage-text2 {
+    margin-bottom: 200px;
+}
+.garage-text {
+    margin-bottom: 50px;
+}
+
+footer {
+    background: url('../images/footer/wallpaperbetter.com_2880x1800\ copie\ 3.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 600px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+
+.footer-voiture img{
+    display: flex;
+    width: 20%;
+}
+@media screen and (min-width: 811px){
+    
+}
+.img-footerM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.footer-voiture{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.footer-voiture h5 {
+    color: #fff;
+    font-size: 20px;
+}
+.footer-voiture p {
+    color: #fff;
+    font-size: 20px;
+}
+.footer-voiture a {
+    text-decoration: none;
+}
+.background-presen1 {
+    background-image: url(../images/collec1Bugattie/BUGATTI_Divo_Side_Black_562626_2560x1440.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    position: relative;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+
+.background-presen2 {
+    background-color: rgb(0 0 0 / 21%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(0deg
+, #000 0.1%, rgba(4, 4, 4, 0));
+}
+.text-back {
+    color: #fff;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+}
+.body2 {
+    padding-bottom: 150px;
+    background-color: #000;
+    /* rgb(18 ,18 ,20) */
+}
+
+.picture-container {
+    height: 250px;
+}
+
+.picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #c3aa88;
+}
+.btn {
+    padding: 10px 140px;
+}
+.btn-primary:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+.nav-link:hover {
+    color: #03a9f4;
+}
+.btn-outline-success {
+    color: #000;
+    border-color: #ccd2d7;
+}
+.btn-outline-success:hover {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #03a9f4;
+}
+.dropdown-menu {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.background-presen3 {
+    background-image: url(../images/ActuelleAudirs6/audi-rs6-avant-4.jpeg);
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    position: relative;
+    filter: drop-shadow(0 0 1.2rem #000);
+
+.carousel-inner {
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.boxe-actu h3{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+.background-presen4 {
+    background-image: url(../images/autre/609013860194680b7512aeeb-ferrari-812-competizione-line-up-page-test.png);
+    background-size: 80% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    position: relative;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.text-back h3{
+    color: #fff;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+}
+.boxe1-img img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.boxe1-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxe-1{
+    display: flex;
+    margin-bottom: 100px;
+}
+.boxe1-text{
+    width: 50%;
+   text-align: right;
+   justify-content: center;
+}
+.boxe1-text h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+.boxe1-text p{
+    font-size: 17px;
+}
+.backBlack-1{
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.boxe2-img img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 1.2rem #fff);
+}
+.boxe2-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxe-2{
+    display: flex;
+    margin-bottom: 100px;
+}
+.boxe2-text{
+    width: 50%;
+   text-align: left;
+   justify-content: center;
+   color: #fff;
+}
+.boxe2-text h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+.boxe2-text p{
+    font-size: 17px;
+}
+.boxe-3{
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.boxe-4{
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.boxe-5{
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.backBlack-2{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.boxe3-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxe4-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxe5-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-presenContact {
+    background-image: url(../images/Actuelle/2018-porsche-911-gt2-rs-10.jpeg);
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    position: relative;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.form-contact{
+   margin-bottom: 150px;
+}
+.box-pagination{
+    display: flex;
+    justify-content: center;
+}
+.page-link{
+    color: #fff;
+    background-color: black;
+}
+.box-tppage{
+    margin-top: -100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.page-item.active .page-link{
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+/*---------------------------BUAGTIE PAGE-----------------*/
+.page-collec{
+    display: flex;
+}
+.carousel-bugati {
+    width: 40%;
+}
+.text-bugatie{
+    width: 60%;
+    text-align:center;
+    margin-bottom: 100px;
+}
+.bugatie .carousel-item {
+    height: 400px;
+}
+.carousel-bugati img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.form-bugatti{
+    display: flex;
+    margin-bottom: 150px;
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.texte-cont{
+    color: #fff;
+}
+.carousel-inner{
+    display: flex;
+    align-items: center;
+}
+.img-bugati1{
+    background: url('../images/collec1Bugattie/BUGATTI_2019_Divo_Back_view_562742_1364x1024.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.img-bugati2{
+    background: url('../images/collec1Bugattie/BUGATTI_2019_Divo_Front_562408_1280x957.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.img-bugati3{
+    background: url('../images/collec1Bugattie/BUGATTI_Divo_2019_Black_562468_1307x1024.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.img-bugati4{
+    background: url('../images/collec1Bugattie/BUGATTI_Divo_Side_Black_562626_2560x1440.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 0 1.2rem #000);
+}
+.bugati-texte h2{
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+.bugati-texte{
+    width: 100%;
+   text-align: center;
+   justify-content: center;
+}
+.blok-textform{
+    
+
+}
